@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400");
+@import url("https://fonts.googleapis.com/css?family=Metal+Mania");
+@font-face {
+    font-family: "Booter - Zero Zero";
+    src: url("Fonts/Booter - Zero Zero.woff") format("woff"),
+         url("Fonts/Booter - Zero Zero.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;     
+}
+* {
+   font-family: 'Metal Mania', Times, serif;
+   padding: 0px;
+   margin: 0px;
+}
+.nav{
+    display: flex;
+}
+.nav p {
+    display: inline-block;
+    border-radius: 25px;
+    font-size: 1em;
+    padding: 5px;
+    color: black;
+}
+.nav p:hover{
+    display: inline-block;
+    border-radius: 25px;
+    font-size: 1em;
+    padding: 5px;
+    background-color: black;
+    color: rgba(255, 162, 0, 0.936);
+}
+.Left-nav {
+    background-color: black;
+    text-align: center;
+    font-size: 2em;
+    padding: 5px 279px 5px 200px;
+    color: rgba(255, 162, 0, 0.936);
+}
+.Right-nav {
+    background-color:rgba(255, 162, 0, 0.936);
+    display: inline-block;
+    padding: 5px 258px 5px 250px;
+    color:black;
+}
+.section1 {
+    background-color: black;
+    padding: 40px 50px 40px 50px;
+
+}
+
+.section1 h1{
+    padding: 0;
+    font-size: 2.8em;
+    letter-spacing:2px;
+    color: rgba(255, 162, 0, 0.936);
+    text-align: center;
+    transition: 0.5s;
+}
+.section1 h1:hover{
+    font-size: 4.8em;
+    letter-spacing:2px;
+    color:red;
+    text-align: center;
+    
+}
+.section1 h3{
+    font-size: 1.2em;
+    padding: 0;
+    letter-spacing:2px;
+    color: white;
+    text-align: center;
+    transition: 0.5s;
+}
+.section1 h3:hover{
+    font-size: 0.8em;
+    letter-spacing:2px;
+    color:red;
+    text-align: center;
+}
+.section2{
+    border: 1px;
+    padding: 10px 20px 10px 20px;
+    margin-top: 0px;
+    font-size: 1.3em;
+    text-align: center;
+    background-image: linear-gradient(27deg, yellow,orange,pink);
+    transition: 0.3s;
+}
+.section2:hover{
+    padding: 10px 20px 10px 20px;
+    margin-top: 0px;
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    background-image: linear-gradient(27deg, orange,black,green);
+}
+.section3{
+    background-color: white;
+    border-bottom: 1px rgba(255, 162, 0, 0.936) ;
+    color: black;
+    text-align: center;
+    padding: 20px 10px 20px 10px;
+}
+.section4{
+    padding: 20px 50px 20px 12px;
+    background-color: black;
+    text-align: center;
+}
+.section4 h1{
+    color: rgba(255, 162, 0, 0.936);
+    padding: 10px;
+}
+.section4 li{
+    color: white;
+    padding: 5px;
+}
+.section5{
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+}
+.section5 h1{
+    padding: 10px;
+}
+.section5 p{
+    padding:5px ;
+}
+.section6 {
+    margin: 1px;
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+    border-color: white;
+}
+.section6 h1{
+    padding: 10px;
+    color:rgba(255, 162, 0, 0.936) ;
+}
+.section6 h3{
+    padding: 10px;
+    color:white;
+}
+.section6 p{
+    padding: 10px;
+    color:white;
+}
+.section6 a{
+    padding: 10px;
+    font-size: 0.8em;
+    color:rgba(255, 162, 0, 0.936);
+}
+.footer{
+    padding: 5px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
